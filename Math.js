@@ -9,3 +9,8 @@
 // }
 
 // module.exports = math;
+
+export let PI = 3.14;
+export let g = 10;
+export let squre = (3.14*3.14);
+export let sum = (a, b) => a + b;
