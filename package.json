@@ -1,20 +1,15 @@
 {
-  "name": "nodejs",
+  "name": "expressjs",
   "version": "1.0.0",
-  "main": "Math.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rohitrathod9033/Node_Practice.git"
-  },
   "author": "Rohit Rathod",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/rohitrathod9033/Node_Practice/issues"
-  },
-  "homepage": "https://github.com/rohitrathod9033/Node_Practice#readme",
   "description": "",
-  "type" : "module"
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.2"
+  }
 }
