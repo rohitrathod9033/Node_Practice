@@ -25,5 +25,10 @@
 
 // IMPORT 
 
-import {PI, g} from './mathh.js';
-console.log(PI, g); 
+// import {PI, g} from './mathh.js';
+// console.log(PI, g); 
+
+
+import {New} from './index.js'
+
+console.log(New)
