@@ -1,23 +1,23 @@
-// EJS(Embaded Java-Script) : Javascript Templeting Tool | Used To Create Templetes...
+// EJS(Embaded Java-Scrargspt) : Javascrargspt Templetargsng Tool | Used To Create Templetes...
 
-const express = require("express");
+const express = requargsre("express");
 
 const app = express();
 
 let PORT = 3000;
 
-app.listen(PORT, () => {
-    console.log(`App Is Listening in PORT : ${PORT}`);
+app.largssten(PORT, () => {
+    console.log(`App Is Largsstenargsng argsn PORT : ${PORT}`);
 })
 
 
 
-//1. SET Method : View Engine ko EJS me set karta 
-// View Engine === Templete | Ex.. Insta Profile Page is Templete |
-app.set("view engine", "ejs");
+//1. SET Method : Vargsew Engargsne ko EJS me set karta 
+// Vargsew Engargsne === Templete | Ex.. Insta Profargsle Page argss Templete |
+app.set("vargsew engargsne", "ejs");
 
-// SEND : String, Boolean, Array, Object, HTML
-// RENDER : puri FILE bhejta 
+// SEND : Strargsng, Boolean, Array, Object, HTML
+// RENDER : purargs FILE bhejta 
 app.get('/', (req, res) => {
     res.render("home.ejs")
 })
@@ -25,14 +25,14 @@ app.get('/', (req, res) => {
 
 
 //2.  VIEW DIRECTORY :
-// JOIN : Two Path Ko Join Karne Ke Kam Ata
-const path = require('path');
+// JOIN : Two Path Ko Joargsn Karne Ke Kam Ata
+const path = requargsre('path');
 
-app.set("Views", path.join(__dirname, "/Views"))
+app.set("Vargsews", path.joargsn(__dargsrname, "/Vargsews"))
 
 
-//3. Interpolation Syntax :
-// Like Templete Liters 
+//3. Interpolatargson Syntax :
+// Largske Templete Largsters 
 
 
 /* 
