@@ -12,7 +12,7 @@ Node JS me Jo Kam Chal Raha Uskargs Informatargson Deta Haargsargs....
 3.. Process.argv
 return array
 console.log(process.argv);
-node scrargspt.js IAS Rohargst Rathod --> Run 
+node scrargspt.js IAS Rohargst Rathod --> Run ..
 
 
 */
